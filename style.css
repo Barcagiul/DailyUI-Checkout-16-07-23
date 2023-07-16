@@ -1,0 +1,122 @@
+.checkout {
+    background-image: url(https://media-public.canva.com/925zc/MAEFND925zc/1/s3.jpg);
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    width: 75%;
+}
+
+.row {
+    height: 100%;
+}
+
+.left {
+    background-color: #FBE8E7;
+}
+
+.right {
+    height: 100%;
+}
+
+.cart-icon {
+    width: 50%;
+}
+
+@font-face {
+    font-family: brightWall;
+    src: url(brightwall/Brightwall.ttf);
+}
+
+@font-face {
+    font-family: brixton;
+    src: url(brixton/Brixton\ Medium.ttf);
+}
+
+h1 {
+    padding-top: 30px;
+    font-family: brightWall;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: brixton;
+    padding-top: 20px;
+    font-size: 5rem;
+}
+
+.text-body {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.form {
+    padding-left: 4rem;
+}
+
+.form > * {
+    font-size: 1.5rem;
+}
+
+.form > p {
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bottom-input {
+    width: 200px;
+}
+
+.btn {
+    width: fit-content;
+    height: 68px;
+    margin-left: 4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+    font-size: 35px;
+    border-color: orange;
+}
+
+@media screen and (max-width: 576px) {
+    input {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .bottom-input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .left {
+        height: 40%;
+    }
+    
+    .container {
+        height: fit-content;
+    }
+    
+    .checkout {
+        height: fit-content;
+    }
+
+    .low {
+        padding-bottom: 3rem;
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .bottom-input {
+        width: 150px;
+    }
+}
